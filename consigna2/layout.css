@@ -1,0 +1,27 @@
+body {
+    margin: 0;
+    font-family:Arial, sans-serif;
+}
+
+header, footer {
+    background-color: green;
+    color: black;
+    padding: 30px;
+}
+
+main {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-gap: 20px;
+    padding: 20px;
+}
+
+article {
+    background-color: chartreuse;
+    padding: 20px;
+}
+
+aside {
+    background-color: greenyellow;
+    padding: 180px;
+}

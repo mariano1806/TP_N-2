@@ -1,0 +1,60 @@
+body {
+    margin: 0;
+    font-family:Arial, sans-serif;
+}
+
+header {
+    display: grid;
+    grid-template-columns: auto 1fr auto;
+    align-items: center;
+    background-color: aqua;
+    color: black;
+    padding: 10px 20px;
+}
+
+.logo {
+    grid-column: 1;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+nav ul li:last-child {
+    margin-right: 0;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+.search-widget {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.search-widget input[type="text"] {
+    padding: 5px;
+    margin-right: 5px;
+}
+
+.search-widget button {
+    padding: 5px 10px;
+    background-color: blue;
+    border: none;
+    color: black;
+}

@@ -1,0 +1,16 @@
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 10px;
+}
+
+.image {
+    overflow: hidden;
+    border-radius: 5px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    width: 500px;
+}
